@@ -1,0 +1,51 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    line-height: 1.8;
+    background-image: url('FONDO.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    color: #444;
+}
+
+h1 {
+    text-align: center;
+    font-size: 36px;
+    font-family: 'Lobster', cursive;
+    color: #f19f9f;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 4px #000000;
+
+
+}
+
+.reference {
+    margin-bottom: 15px;
+    background: rgba(255, 255, 255, 0.8);
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.reference b {
+    font-weight: bold;
+}
+
+.reference span.online {
+    color: rgb(17, 104, 131);
+    font-style: italic;
+}
+
+.reference span.consulted {
+    color: rgb(174, 18, 86);
+    font-style: italic;
+}
+
+a {
+    color: #701212;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
